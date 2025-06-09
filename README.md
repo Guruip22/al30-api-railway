@@ -6,3 +6,9 @@ Esta API expone la cotización del bono AL30 (contado inmediato y 24 hs) usand
 
 1. Crear archivo `.env` con tus credenciales:
 
+2. Instalar dependencias:
+
+```bash
+pip install -r requirements.txt
+python main.py
+
