@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/api/al30")
 def get_al30():
     try:
-        hb = HomeBroker(265)
+        hb = HomeBroker(81)
         hb.auth.login(
             dni=os.getenv("DNI"),
             user=os.getenv("HB_USER"),
