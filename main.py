@@ -7,7 +7,7 @@ app = FastAPI(title="AL30 Arbitrage API")
 DNI       = os.getenv("HB_DNI")
 USER      = os.getenv("HB_USER")
 PASSWORD  = os.getenv("HB_PASS")
-BROKER_ID = os.getenv("HB_BROKER", "invertironline")
+BROKER_ID = os.getenv("HB_BROKER", "81")
 
 def get_prices():
     hb = HomeBroker(broker=BROKER_ID)
